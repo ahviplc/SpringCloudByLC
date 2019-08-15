@@ -1,4 +1,4 @@
-### eureka-service-consumer By LC
+## eureka-service-consumer By LC
 
 > eureka-service-consumer这里eureka-service-consumer\src\main\resources\application.properties配置:
 
@@ -9,7 +9,7 @@ server.port=9001
 eureka.client.serviceUrl.defaultZone=http://localhost:8000/eureka/
 
 ```
-### Feign 注意：pom.xml还需要引入Feign
+## Feign 注意：pom.xml还需要引入Feign
 
 > Feign是一个声明式Web Service客户端。使用Feign能让编写Web Service客户端更加简单, 它的使用方法是定义一个接口，然后在上面添加注解，同时也支持JAX-RS标准的注解。Feign也支持可拔插式的编码器和解码器。Spring Cloud对Feign进行了封装，使其支持了Spring MVC标准注解和HttpMessageConverters。Feign可以与Eureka和Ribbon组合使用以支持负载均衡。
 
@@ -38,9 +38,9 @@ springcloud(三)：服务提供与调用 - 纯洁的微笑博客
 
 > http://www.ityouknow.com/springcloud/2017/05/12/eureka-provider-constomer.html
 
-### 总测试
+## 总测试
 
-简单调用
+### 简单调用
 
 依次启动spring-cloud-eureka、spring-cloud-producer、spring-cloud-consumer三个项目
 
